@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }} — {{ site.tagline }}{% endif %}</title>
+<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+{% feed_meta %}
+{% seo %}
+</head>
+<body>
+
+  {% include nav.html %}
+
+  {{ content }}
+
+  {% include footer.html %}
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    const toggle = document.getElementById('navToggle');
+    const menu = document.getElementById('mobileMenu');
+    toggle.addEventListener('click', () => {
+      const isOpen = menu.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', isOpen);
+      toggle.textContent = isOpen ? '✕' : '☰';
+    });
+
+    // Theme toggle
+    const themeToggle = document.getElementById('themeToggle');
+    const root = document.documentElement;
+    const savedTheme = localStorage.getItem('techtonz-theme');
+    if (savedTheme === 'light') {
+      root.setAttribute('data-theme', 'light');
+      if (themeToggle) themeToggle.textContent = '☀';
+    }
+    if (themeToggle) {
+      themeToggle.addEventListener('click', () => {
+        const isLight = root.getAttribute('data-theme') === 'light';
+        if (isLight) {
+          root.removeAttribute('data-theme');
+          localStorage.setItem('techtonz-theme', 'dark');
+          themeToggle.textContent = '☾';
+        } else {
+          root.setAttribute('data-theme', 'light');
+          localStorage.setItem('techtonz-theme', 'light');
+          themeToggle.textContent = '☀';
+        }
+      });
+    }
+
+    // Respect reduced motion
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    AOS.init({
+      duration: 700,
+      once: true,
+      disable: prefersReducedMotion
+    });
+
+    // Animated counters
+    const counters = document.querySelectorAll('.counter-num');
+    if (counters.length && !prefersReducedMotion) {
+      const counterObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const el = entry.target;
+            const target = parseInt(el.dataset.target, 10);
+            const duration = 1400;
+            const startTime = performance.now();
+            function tick(now) {
+              const progress = Math.min((now - startTime) / duration, 1);
+              const eased = 1 - Math.pow(1 - progress, 3);
+              el.textContent = Math.floor(eased * target).toLocaleString();
+              if (progress < 1) requestAnimationFrame(tick);
+              else el.textContent = target.toLocaleString();
+            }
+            requestAnimationFrame(tick);
+            counterObserver.unobserve(el);
+          }
+        });
+      }, { threshold: 0.4 });
+      counters.forEach(c => counterObserver.observe(c));
+    } else if (counters.length) {
+      counters.forEach(c => { c.textContent = parseInt(c.dataset.target, 10).toLocaleString(); });
+    }
+  </script>
+</body>
+</html>
