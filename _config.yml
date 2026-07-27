@@ -1,0 +1,42 @@
+title: Techtonz
+tagline: Where Technology Meets Innovation
+description: >-
+  Techtonz is a home for practical AI, data analytics, data science, Python,
+  and machine learning knowledge — plus career guidance and scholarship
+  opportunities for people building a future in tech.
+url: "https://techtonz.com"
+baseurl: ""
+
+author: Techtonz
+email: hello@techtonz.com
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:title/
+
+# Collections / plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor
