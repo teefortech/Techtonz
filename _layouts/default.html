@@ -10,6 +10,15 @@
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 <link rel="icon" href="data:,">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<script>
+  // Apply theme immediately, before paint, to prevent flash/mismatch
+  (function() {
+    const saved = localStorage.getItem('techtonz-theme');
+    if (saved === 'light') {
+      document.documentElement.setAttribute('data-theme', 'light');
+    }
+  })();
+</script>
 {% feed_meta %}
 {% seo %}
 </head>
@@ -34,10 +43,8 @@
     // Theme toggle
     const themeToggle = document.getElementById('themeToggle');
     const root = document.documentElement;
-    const savedTheme = localStorage.getItem('techtonz-theme');
-    if (savedTheme === 'light') {
-      root.setAttribute('data-theme', 'light');
-      if (themeToggle) themeToggle.textContent = '☀';
+    if (root.getAttribute('data-theme') === 'light' && themeToggle) {
+      themeToggle.textContent = '☀';
     }
     if (themeToggle) {
       themeToggle.addEventListener('click', () => {
