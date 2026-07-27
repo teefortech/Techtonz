@@ -1,0 +1,159 @@
+---
+layout: default
+---
+<section class="hero">
+  <canvas id="particleCanvas" aria-hidden="true"></canvas>
+  <div class="eyebrow"><span class="ping"></span> BUILDING IN PUBLIC</div>
+  <h1><span id="typedHeadline"></span><span class="cursor">&nbsp;</span></h1>
+  <p class="lead">Techtonz is a home for practical AI, data analytics, data science, Python, and machine learning knowledge — plus career guidance and scholarship opportunities for people building a future in tech.</p>
+  <div class="hero-actions">
+    <a href="{{ '/blog/' | relative_url }}" class="btn-primary">Explore the blog</a>
+    <a href="{{ '/about/' | relative_url }}" class="btn-ghost">About Techtonz</a>
+  </div>
+</section>
+
+<section class="section counters" data-aos="fade-up">
+  <div class="counter-grid">
+    <div class="counter-item">
+      <div class="counter-num" data-target="{{ site.posts.size }}">0</div>
+      <div class="counter-label">Articles published</div>
+    </div>
+    <div class="counter-item">
+      <div class="counter-num" data-target="7">0</div>
+      <div class="counter-label">Topics covered</div>
+    </div>
+    <div class="counter-item">
+      <div class="counter-num" data-target="100">0</div>
+      <div class="counter-label">Free, always</div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head" data-aos="fade-up">
+    <h2>What you'll find here</h2>
+    <span class="path mono">~/techtonz/topics</span>
+  </div>
+  <div class="directory" data-aos="fade-up" data-aos-delay="100">
+    {% for topic in site.data.topics %}
+    <div class="dir-row">
+      <span class="dir-icon mono">{{ topic.slug }}/</span>
+      <span class="dir-name">{{ topic.name }}</span>
+      <span class="dir-desc">{{ topic.description }}</span>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% if site.posts.size > 0 %}
+<section class="section">
+  <div class="section-head" data-aos="fade-up">
+    <h2>Latest from the blog</h2>
+    <span class="path mono">~/techtonz/blog</span>
+  </div>
+  <div class="post-list">
+    {% for post in site.posts limit: 3 %}
+    <a href="{{ post.url | relative_url }}" class="post-card" style="display:block;" data-aos="fade-up" data-aos-delay="{{ forloop.index0 | times: 80 }}">
+      <div class="meta"><span class="tag">{{ post.category | default: "article" }}</span> · {{ post.date | date: "%b %-d, %Y" }}</div>
+      <h3>{{ post.title }}</h3>
+      <p>{{ post.excerpt | strip_html | truncate: 130 }}</p>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<div class="status" data-aos="fade-up">
+  <div class="status-box">
+    <span class="dot"></span>
+    <p>$ status --site<br>Techtonz is live and actively under construction. New articles publishing weekly.</p>
+  </div>
+</div>
+
+<script>
+  // Typing effect
+  (function() {
+    const el = document.getElementById('typedHeadline');
+    const lines = ['Where technology', 'meets innovation'];
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (prefersReducedMotion) {
+      el.innerHTML = lines.join('<br>');
+      return;
+    }
+    let lineIndex = 0, charIndex = 0;
+    function type() {
+      if (lineIndex >= lines.length) return;
+      const current = lines[lineIndex];
+      if (charIndex <= current.length) {
+        const done = lines.slice(0, lineIndex).join('<br>');
+        el.innerHTML = (done ? done + '<br>' : '') + current.slice(0, charIndex);
+        charIndex++;
+        setTimeout(type, 38);
+      } else {
+        lineIndex++;
+        charIndex = 0;
+        setTimeout(type, 220);
+      }
+    }
+    type();
+  })();
+
+  // Particle background
+  (function() {
+    const canvas = document.getElementById('particleCanvas');
+    if (!canvas) return;
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const ctx = canvas.getContext('2d');
+    let particles = [];
+    let w, h;
+
+    function resize() {
+      w = canvas.width = canvas.offsetWidth;
+      h = canvas.height = canvas.offsetHeight;
+    }
+    resize();
+    window.addEventListener('resize', resize);
+
+    const count = Math.min(50, Math.floor((w * h) / 18000));
+    for (let i = 0; i < count; i++) {
+      particles.push({
+        x: Math.random() * w,
+        y: Math.random() * h,
+        vx: (Math.random() - 0.5) * 0.25,
+        vy: (Math.random() - 0.5) * 0.25,
+        r: Math.random() * 1.4 + 0.6
+      });
+    }
+
+    function draw() {
+      ctx.clearRect(0, 0, w, h);
+      ctx.fillStyle = 'rgba(0, 217, 192, 0.5)';
+      particles.forEach(p => {
+        p.x += p.vx;
+        p.y += p.vy;
+        if (p.x < 0 || p.x > w) p.vx *= -1;
+        if (p.y < 0 || p.y > h) p.vy *= -1;
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        ctx.fill();
+      });
+      for (let i = 0; i < particles.length; i++) {
+        for (let j = i + 1; j < particles.length; j++) {
+          const dx = particles[i].x - particles[j].x;
+          const dy = particles[i].y - particles[j].y;
+          const dist = Math.sqrt(dx * dx + dy * dy);
+          if (dist < 120) {
+            ctx.strokeStyle = `rgba(124, 92, 255, ${0.12 * (1 - dist / 120)})`;
+            ctx.lineWidth = 1;
+            ctx.beginPath();
+            ctx.moveTo(particles[i].x, particles[i].y);
+            ctx.lineTo(particles[j].x, particles[j].y);
+            ctx.stroke();
+          }
+        }
+      }
+      if (!prefersReducedMotion) requestAnimationFrame(draw);
+    }
+    draw();
+  })();
+</script>
