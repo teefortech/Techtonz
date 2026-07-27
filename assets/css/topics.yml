@@ -1,0 +1,27 @@
+- slug: 01_ai
+  name: Artificial Intelligence
+  description: Models, tools, and how AI actually gets built
+
+- slug: 02_data-analytics
+  name: Data Analytics
+  description: Turning raw data into decisions that hold up
+
+- slug: 03_data-science
+  name: Data Science
+  description: Analysis, visualization, and real datasets
+
+- slug: 04_python
+  name: Python Programming
+  description: From fundamentals to production code
+
+- slug: 05_ml
+  name: Machine Learning
+  description: Models, training, and practical ML workflows
+
+- slug: 06_career
+  name: Career Guides
+  description: Breaking into tech and leveling up once you're in
+
+- slug: 07_scholarships
+  name: Scholarship Opportunities
+  description: Funded routes into tech education, curated and current
