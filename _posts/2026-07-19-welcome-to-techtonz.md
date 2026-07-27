@@ -1,0 +1,23 @@
+---
+title: "Welcome to Techtonz"
+category: announcement
+tags: [techtonz, welcome]
+excerpt: "Why we're building Techtonz, and what to expect from the blog in the coming weeks."
+---
+
+Techtonz is a new home for practical, no-fluff writing on artificial intelligence, data science, Python, and web development.
+
+## Why we're building this
+
+Most tech blogs either drown you in theory or skip straight to code without explaining why it works. Techtonz aims to sit in between: clear explanations, real examples, and tutorials you can actually follow start to finish.
+
+## What's coming
+
+Over the next few weeks we'll be publishing our first batch of articles covering:
+
+- Getting started with Python for data work
+- Practical AI tools worth your time
+- Building and deploying modern web projects
+- Tutorials that assume nothing and explain everything
+
+Thanks for being here early. More soon.
