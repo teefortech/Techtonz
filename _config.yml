@@ -25,9 +25,6 @@ defaults:
       path: "assets"
     values:
       layout: null
-
-# Default front matter
-defaults:
   - scope:
       path: ""
       type: "posts"
