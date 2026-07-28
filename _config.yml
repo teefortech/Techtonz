@@ -20,6 +20,12 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+defaults:
+  - scope:
+      path: "assets"
+    values:
+      layout: null
+
 # Default front matter
 defaults:
   - scope:
