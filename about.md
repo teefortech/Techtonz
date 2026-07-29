@@ -8,11 +8,7 @@ permalink: /about/
   <div class="about-hero-inner">
     <div class="eyebrow"><span class="ping"></span> ABOUT TECHTONZ</div>
     <h1>Learn. Build. Stay Ahead.</h1>
-    <p class="lead">Making AI, Data Science, Data Analytics, Python, and Machine Learning practical, accessible, and genuinely useful.</p>
-    <div class="hero-actions">
-      <a href="{{ '/blog/' | relative_url }}" class="btn-primary">Explore Articles</a>
-      <a href="{{ '/contact/' | relative_url }}" class="btn-ghost">Get in Touch</a>
-    </div>
+    <p class="lead">Techtonz is Making AI, Data Science, Data Analytics, Python, and Machine Learning practical, accessible, and genuinely useful.</p>  
   </div>
 </section>
 
