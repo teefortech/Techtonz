@@ -32,6 +32,11 @@ permalink: /about/
     <div class="creator-grid">
       <div class="creator-photo">
         <!-- Replace the src with your real photo path, e.g. /assets/images/anthony.jpg -->
+  
+  <div class="creator-photo">
+  <img src="{{ '/assets/images/TY_codal_1.jpg' | relative_url }}" alt="Tony. N">
+</div> 
+
         <div class="photo-placeholder">AN</div>
       </div>
       <div class="creator-bio">
