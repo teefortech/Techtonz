@@ -64,7 +64,7 @@ permalink: /contact/
     <p class="contact-form-intro">Fill out the form below, and We'll get back to you as soon as we can.</p>
 
     <!-- Replace YOUR_FORM_ID with your real Formspree form ID -->
-    <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <form class="contact-form" action="https://formspree.io/f/mlgqvoal" method="POST">
       <div class="form-row">
         <div class="form-field">
           <label for="name">Name</label>
