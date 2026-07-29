@@ -7,7 +7,7 @@ permalink: /about/
 <section class="about-hero">
   <div class="about-hero-inner">
     <div class="eyebrow"><span class="ping"></span> ABOUT TECHTONZ</div>
-    <h1>Learn. Build. Stay Ahead.</h1>
+    <h1>Learn. Build. Innovate</h1>
     <p class="lead">Making AI, Data Science, Data Analytics, Python, and Machine Learning practical, accessible, and genuinely useful.</p>
     <div class="hero-actions">
       <a href="{{ '/blog/' | relative_url }}" class="btn-primary">Explore Articles</a>
@@ -31,16 +31,10 @@ permalink: /about/
     <h2>Meet the Creator</h2>
     <div class="creator-grid">
       <div class="creator-photo">
-        <!-- Replace the src with your real photo path, e.g. /assets/images/anthony.jpg -->
-  
-  <div class="creator-photo">
   <img src="{{ '/assets/images/TY_codal_1.jpg' | relative_url }}" alt="Tony. N">
-</div> 
-
-        <div class="photo-placeholder">AN</div>
-      </div>
+  </div> 
       <div class="creator-bio">
-        <h3>Anthony Nwuzor</h3>
+        <h3>Tony Nwuzor</h3>
         <p class="creator-role">Data Scientist · Educator · Tech Writer</p>
         <p>I'm passionate about using data and technology to solve real-world problems and helping others build the skills to do the same.</p>
         <p>Through Techtonz, I share practical tutorials, project walkthroughs, career advice, and insights from my own learning journey. Every article is written with one goal: to help you become more confident with technology, whether you're just starting or advancing your career.</p>
