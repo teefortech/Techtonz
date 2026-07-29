@@ -8,14 +8,14 @@ permalink: /contact/
   <div class="about-hero-inner">
     <div class="eyebrow"><span class="ping"></span> GET IN TOUCH</div>
     <h1>Let's Connect</h1>
-    <p class="lead">Have a question, an idea, or feedback to share? I'd love to hear from you.</p>
+    <p class="lead">Have a question, an idea, or feedback to share? We'd love to hear from you.</p>
   </div>
 </section>
 
 <section class="about-section">
   <div class="about-section-inner">
     <p style="max-width: 640px; margin: 0 auto; text-align: center; color: var(--slate); font-size: 1.05rem; line-height: 1.7;">
-      Whether you've discovered a bug in a tutorial, want a topic covered, have an AI tool worth exploring, know of a scholarship opportunity, or simply want to say hello—your message is always welcome. Many of the best ideas on Techtonz begin with conversations from readers like you.
+      Whether you've discovered a bug in a tutorial, want a topic covered, have an AI tool worth exploring, know of a scholarship opportunity, or simply want to say hello. Your message is always welcome. Many of the best ideas on Techtonz begin with conversations from readers like you.
     </p>
   </div>
 </section>
@@ -52,7 +52,7 @@ permalink: /contact/
       <div class="contact-topic">
         <div class="contact-topic-icon">👋</div>
         <h3>Just Say Hello</h3>
-        <p>Whether you're a student, developer, or simply curious—I'd be happy to hear from you.</p>
+        <p>Whether you're a student, developer, or simply curious. We'd be happy to hear from you.</p>
       </div>
     </div>
   </div>
@@ -61,7 +61,7 @@ permalink: /contact/
 <section class="about-section">
   <div class="about-section-inner contact-form-wrap">
     <h2>Send a Message</h2>
-    <p class="contact-form-intro">Fill out the form below, and I'll get back to you as soon as I can.</p>
+    <p class="contact-form-intro">Fill out the form below, and We'll get back to you as soon as we can.</p>
 
     <!-- Replace YOUR_FORM_ID with your real Formspree form ID -->
     <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
@@ -92,7 +92,7 @@ permalink: /contact/
       <p style="margin: 16px 0 12px;">
         <a href="mailto:hello@techtonz.com" class="email-link">📧 hello@techtonz.com</a>
       </p>
-      <p style="margin-bottom: 0;">I personally read every email and do my best to respond as quickly as possible.</p>
+      <p style="margin-bottom: 0;">We read every email and do our best to respond as quickly as possible.</p>
     </div>
   </div>
 </section>
