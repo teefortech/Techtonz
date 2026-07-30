@@ -2000,7 +2000,7 @@ footer .mono { color: #5a6478; }
 /* Full-bleed slider on mobile */
 @media (max-width: 720px) {
   .slider-section {
-    max-width: 100%;
+    max-width: 90%;
     padding-left: 0;
     padding-right: 0;
   }
