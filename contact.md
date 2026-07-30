@@ -68,11 +68,11 @@ permalink: /contact/
       <div class="form-row">
         <div class="form-field">
           <label for="name">Name</label>
-          <input type="text" id="name" name="name" placeholder="Your Name" required>
+          <input type="text" id="name" name="name" placeholder="" required>
         </div>
         <div class="form-field">
           <label for="email">Email Address</label>
-          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          <input type="email" id="email" name="email" placeholder="" required>
         </div>
       </div>
       <div class="form-field">
@@ -90,7 +90,7 @@ permalink: /contact/
       <h2>Prefer Email?</h2>
       <p>You can always reach me directly at:</p>
       <p style="margin: 16px 0 12px;">
-        <a href="mailto:hello@techtonz.com" class="email-link">📧 hello@techtonz.com</a>
+        <a href="mailto:hello@techtonz.com" class="email-link">📧 techtonzgc@gmail.com</a>
       </p>
       <p style="margin-bottom: 0;">We read every email and do our best to respond as quickly as possible.</p>
     </div>
