@@ -74,15 +74,15 @@ layout: default
 <section class="section">
   <div class="section-head" data-aos="fade-up">
     <h2>What you'll find here</h2>
-    <span class="path mono">~/techtonz/topics</span>
+    <span class="path mono">\~/techtonz/topics</span>
   </div>
-  <div class="directory" data-aos="fade-up" data-aos-delay="100">
+  <div class="topic-home-grid" data-aos="fade-up" data-aos-delay="80">
     {% for topic in site.data.topics %}
-    <div class="dir-row">
-      <span class="dir-icon mono">{{ topic.slug }}/</span>
-      <span class="dir-name">{{ topic.name }}</span>
-      <span class="dir-desc">{{ topic.description }}</span>
-    </div>
+    <a href="{{ '/blog/' | relative_url }}" class="topic-home-card">
+      <span class="topic-home-slug mono">{{ topic.slug }}/</span>
+      <h3>{{ topic.name }}</h3>
+      <p>{{ topic.description }}</p>
+    </a>
     {% endfor %}
   </div>
 </section>
@@ -91,16 +91,36 @@ layout: default
 <section class="section">
   <div class="section-head" data-aos="fade-up">
     <h2>Latest from the blog</h2>
-    <span class="path mono">~/techtonz/blog</span>
+    <span class="path mono">\~/techtonz/blog</span>
   </div>
-  <div class="post-list">
+  <div class="post-grid">
     {% for post in site.posts limit: 3 %}
-    <a href="{{ post.url | relative_url }}" class="post-card" style="display:block;" data-aos="fade-up" data-aos-delay="{{ forloop.index0 | times: 80 }}">
-      <div class="meta"><span class="tag">{{ post.category | default: "article" }}</span> · {{ post.date | date: "%b %-d, %Y" }}</div>
-      <h3>{{ post.title }}</h3>
-      <p>{{ post.excerpt | strip_html | truncate: 130 }}</p>
+    {% assign words = post.content | number_of_words %}
+    {% assign read_time = words | divided_by: 200 | plus: 1 %}
+    <a href="{{ post.url | relative_url }}" class="post-card-modern" data-aos="fade-up" data-aos-delay="{{ forloop.index0 | times: 80 }}">
+      <div class="post-card-image">
+        {% if post.image %}
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+        {% else %}
+          <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=70" alt="" loading="lazy">
+        {% endif %}
+      </div>
+      <div class="post-card-body">
+        <div class="post-card-meta">
+          <span class="badge">{{ post.category | default: "article" }}</span>
+          <span class="dot-sep">·</span>
+          <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+          <span class="dot-sep">·</span>
+          <span>{{ read_time }} min read</span>
+        </div>
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
+      </div>
     </a>
     {% endfor %}
+  </div>
+  <div style="text-align: center; margin-top: 36px;" data-aos="fade-up">
+    <a href="{{ '/blog/' | relative_url }}" class="btn-ghost">View all articles →</a>
   </div>
 </section>
 {% endif %}
