@@ -1949,3 +1949,18 @@ footer .mono { color: #5a6478; }
     display: none;
   }
 }
+.creator-photo img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  display: block;
+}
+
+@media (max-width: 640px) {
+  .creator-photo img {
+    width: 140px;
+    height: 140px;
+  }
+}
