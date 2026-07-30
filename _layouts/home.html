@@ -124,6 +124,26 @@ layout: default
   </div>
 </section>
 {% endif %}
+      </div>
+      <div class="post-card-body">
+        <div class="post-card-meta">
+          <span class="badge">{{ post.category | default: "article" }}</span>
+          <span class="dot-sep">·</span>
+          <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+          <span class="dot-sep">·</span>
+          <span>{{ read_time }} min read</span>
+        </div>
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  <div style="text-align: center; margin-top: 36px;" data-aos="fade-up">
+    <a href="{{ '/blog/' | relative_url }}" class="btn-ghost">View all articles →</a>
+  </div>
+</section>
+{% endif %}
 
 <div class="status" data-aos="fade-up">
   <div class="status-box">
