@@ -27,7 +27,14 @@ permalink: /about/
     <h2>Meet the Creator</h2>
     <div class="creator-grid">
       <div class="creator-photo">
-  <img src="{{ '/assets/images/TY_codal_1.jpg' | relative_url }}" alt="Tony. N">
+        <img
+  src="{{ '/assets/images/tonzme.jpg' | relative_url }}"
+  alt="Tony Nwuzor"
+  width="180"
+  height="180"
+  loading="lazy"
+  decoding="async"
+>
   </div> 
       <div class="creator-bio">
         <h3>Tony Nwuzor</h3>
