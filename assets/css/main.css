@@ -1997,3 +1997,24 @@ footer .mono { color: #5a6478; }
     padding-right: 4vw;
   }
 }
+/* Full-bleed slider on mobile */
+@media (max-width: 720px) {
+  .slider-section {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .slider-section .section-head {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
+  .slider-wrap {
+    border-radius: 0;
+  }
+
+  .slider-dots {
+    padding: 0 5vw;
+  }
+}
