@@ -83,3 +83,4 @@ permalink: /blog/
   });
 })();
 </script>
+<a href="{{ '/contact/' | relative_url }}" class="btn-primary">Get in touch →</a>
