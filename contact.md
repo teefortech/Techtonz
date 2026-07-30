@@ -153,7 +153,7 @@ permalink: /contact/
 <section class="about-section about-cta">
   <div class="about-section-inner" style="text-align: center; max-width: 640px;">
     <h2>Thank You</h2>
-    <p>Thank you for visiting Techtonz. Whether you're here to learn Python, master data analytics, explore AI, build machine learning projects, or discover new opportunities—I'm grateful you're part of this growing community.</p>
+    <p>Thank you for visiting Techtonz. Whether you're here to learn Python, master data analytics, explore AI, build machine learning projects, or discover new opportunities. We're grateful you're part of this growing community.</p>
     <p class="welcome-line">Let's keep learning, building, and staying ahead—together.</p>
     <div class="hero-actions" style="justify-content: center; margin-top: 28px;">
       <a href="{{ '/blog/' | relative_url }}" class="btn-primary">Explore the blog →</a>
