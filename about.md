@@ -18,7 +18,7 @@ permalink: /about/
     <p class="about-lead">Technology moves fast.</p>
     <p>Every day brings new AI models, programming frameworks, and tools that promise to change everything. Yet many learning resources are either overly academic or so simplified that they leave you with more questions than answers.</p>
     <p>Techtonz was created to bridge that gap.</p>
-    <p>Our mission is to explain complex ideas in a way that's practical, approachable, and immediately useful—so you can spend less time searching and more time building.</p>
+    <p>Our mission is to explain complex ideas in a way that's practical, approachable, and immediately useful. So you can spend less time searching and more time building.</p>
   </div>
 </section>
 
