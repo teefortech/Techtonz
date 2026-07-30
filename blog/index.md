@@ -83,4 +83,14 @@ permalink: /blog/
   });
 })();
 </script>
-<a href="{{ '/contact/' | relative_url }}" class="btn-primary">Get in touch →</a>
+
+<section class="about-section">
+  <div class="about-section-inner">
+    <div class="name-highlight" style="text-align: center;">
+      <h2>Have something in mind?</h2>
+      <p>A topic you'd like explained, a tool you'd like reviewed, or a project you'd like to see built? We'd love to hear from you.</p>
+      <p style="margin-bottom: 28px;">Your suggestions help shape future articles and tutorials.</p>
+      <a href="{{ '/contact/' | relative_url }}" class="btn-primary">Get in touch →</a>
+    </div>
+  </div>
+</section>
