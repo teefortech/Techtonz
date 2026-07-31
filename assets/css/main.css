@@ -2026,9 +2026,9 @@ footer .mono { color: #5a6478; }
 }
 
 .nav-logo-img {
-  height: 40px;
+  height: 58px;
   width: auto;
-  max-height: 40px;
+  max-height: 60px;
   display: block;
   object-fit: contain;
 }
