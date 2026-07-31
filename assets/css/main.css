@@ -2018,3 +2018,21 @@ footer .mono { color: #5a6478; }
     padding: 0 5vw;
   }
 }
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.nav-logo-img {
+  height: 28px;
+  width: auto;
+  display: block;
+}
+
+@media (max-width: 720px) {
+  .nav-logo-img {
+    height: 24px;
+  }
+}
