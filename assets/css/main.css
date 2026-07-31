@@ -2026,13 +2026,16 @@ footer .mono { color: #5a6478; }
 }
 
 .nav-logo-img {
-  height: 60px;
+  height: 40px;
   width: auto;
+  max-height: 40px;
   display: block;
+  object-fit: contain;
 }
 
 @media (max-width: 720px) {
   .nav-logo-img {
-    height: 24px;
+    height: 32px;
+    max-height: 32px;
   }
 }
