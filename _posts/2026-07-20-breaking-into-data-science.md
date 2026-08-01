@@ -3,6 +3,7 @@ title: "How to Break Into Data Science With No Experience"
 category: career
 tags: [career, data-science, beginners]
 excerpt: "A realistic roadmap for landing your first data role — what actually matters to employers, and what doesn't."
+image: /assets/images/datasc1.jpg
 ---
 
 Breaking into data science without prior experience feels harder than it needs to be, mostly because most advice online is either outdated or written by people who broke in five years ago under different market conditions.
