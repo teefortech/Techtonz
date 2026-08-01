@@ -40,10 +40,10 @@ Every article is written with one goal in mind: helping you learn something you 
 
 If you're new here, these articles are a great place to begin:
 
-- [Getting Started with Python for Data Work: A Beginner's Guide (2026)](/getting-started-with-python-for-data-work-a-beginners-guide-2026/)
-- [How to Learn Python Fast in 2026](/how-to-learn-python-fast-in-2026/)
-- [How to Break Into Data Science With No Experience](/how-to-break-into-data-science-with-no-experience/)
-- [5 Fully-Funded Scholarships for Aspiring Data Scientists in 2026](/5-fully-funded-scholarships-for-aspiring-data-scientists-in-2026/)
+- [How to Learn Python Fast in 2026](https://techtonz.com/blog/how-to-learn-python-fast/)
+- [Getting Started with Python for Data Work: A Beginner's Guide](https://techtonz.com/blog/Getting-Started-with-Python-for-Data-Work/)
+- [Funded Data Science Scholarships](https://techtonz.com/blog/funded-data-science-scholarships/)
+- [How to Break into Data Science with No Experience](https://techtonz.com/blog/breaking-into-data-science/)
 
 These guides will help you build a strong foundation in Python, data science, artificial intelligence, and career development.
 
