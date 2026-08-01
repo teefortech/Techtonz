@@ -8,7 +8,7 @@ image: /assets/images/tonzpy1.jpg
 
 Whether you're planning to become a data analyst, data scientist, machine learning engineer, or simply want to make better use of data in your work, learning Python is one of the smartest decisions you can make.
 
-Python has become the language of choice for working with data—not because it's trendy, but because it's practical, powerful, and surprisingly easy to learn. If you're starting from scratch, don't worry. This guide assumes no prior programming experience and will help you build a solid foundation.
+Python has become the language of choice for working with data. Not because it's trendy, but because it's practical, powerful, and surprisingly easy to learn. If you're starting from scratch, don't worry. This guide assumes no prior programming experience and will help you build a solid foundation.
 
 ---
 
@@ -20,7 +20,7 @@ Every online purchase, bank transaction, hospital visit, GPS location, and socia
 
 But raw data doesn't tell a story on its own.
 
-Before data becomes useful, it has to be collected, cleaned, analyzed, and presented in a way that people can understand. That's where data professionals come in—and one tool sits at the heart of almost all modern data work: Python.
+Before data becomes useful, it has to be collected, cleaned, analyzed, and presented in a way that people can understand. That's where data professionals come in. And one tool sits at the heart of almost all modern data work: Python.
 
 Over the last decade, Python has grown from a general-purpose programming language into the industry standard for data analytics, data science, artificial intelligence (AI), and machine learning. Companies such as Google, Netflix, Microsoft, Amazon, Meta, and Spotify use it every day to solve real business problems, automate tasks, and build intelligent applications.
 
@@ -340,7 +340,7 @@ That's where you begin to appreciate the true power of programming for data work
 
 ## Common Mistakes Beginners Make
 
-Every Python learner makes mistakes—and that's completely normal.
+Every Python learner makes mistakes, and that's completely normal.
 
 Some of the most common include:
 
@@ -376,7 +376,7 @@ By the end of three months of consistent practice, you'll have the confidence an
 
 Learning Python is about much more than writing code. It's about developing the ability to solve problems, uncover insights, and make better decisions with data.
 
-You don't have to master everything in a few weeks. Every experienced programmer started exactly where you are now—writing simple programs, making mistakes, and learning one concept at a time.
+You don't have to master everything in a few weeks. Every experienced programmer started exactly where you are now. Writing simple programs, making mistakes, and learning one concept at a time.
 
 The important thing is to keep going.
 
@@ -397,4 +397,3 @@ Once you're comfortable with the basics, here are a few topics to explore next:
 - Building Your First Data Analysis Project with Python and Pandas
 
 Happy coding, and welcome to the Techtonz community.
-```
