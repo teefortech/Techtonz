@@ -6,7 +6,7 @@ excerpt: "Why we're building Techtonz, and what to expect from the blog in the c
 image: /assets/images/tonzlogo.jpg
 ---
 
-Techtonz is a new home for practical, no-fluff writing on artificial intelligence, data science, Python, and web development.
+Techtonz is a home for practical, no-fluff content on artificial intelligence, data analytics, data science, Python, and machine learning. Helping you build real skills through clear tutorials, hands-on guides, and practical insights.
 
 ## Why we're building this
 
