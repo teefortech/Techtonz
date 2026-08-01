@@ -30,4 +30,6 @@ Most job postings list a wishlist, not a hard requirement list. If you meet roug
 
 Skills gaps are fixable on the job. Communication gaps are what actually filter people out early.
 
+---
+
 *Whether you have a question, an idea, or feedback, we'd love to hear from you. [Get in touch](/contact/).*
