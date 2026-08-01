@@ -376,7 +376,7 @@ By the end of three months of consistent practice, you'll have the confidence an
 
 Learning Python is about much more than writing code. It's about developing the ability to solve problems, uncover insights, and make better decisions with data. If you're looking for the best way to get started, practical, hands-on learning is the key.
 
-You don't have to master everything in a few weeks. Every experienced programmer started exactly where you are now—writing simple programs, making mistakes, and learning one concept at a time.
+You don't have to master everything in a few weeks. Every experienced programmer started exactly where you are now. Writing simple programs, making mistakes, and learning one concept at a time.
 
 The important thing is to keep going.
 
