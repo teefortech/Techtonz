@@ -4,6 +4,7 @@ category: career
 tags: [career, data-science, beginners]
 excerpt: "A realistic roadmap for landing your first data role. What actually matters to employers, and what doesn't."
 image: /assets/images/datasc1.jpg
+featured: true
 ---
 
 There are thousands of people learning data science right now.
