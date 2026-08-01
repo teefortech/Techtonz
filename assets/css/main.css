@@ -2042,3 +2042,13 @@ footer .mono { color: #5a6478; }
     max-height: 68px;
   }
 }
+.badge-featured {
+  background: rgba(0, 217, 192, 0.15);
+  color: var(--teal);
+  border: 1px solid rgba(0, 217, 192, 0.35);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
