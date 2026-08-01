@@ -22,3 +22,5 @@ Over the next few weeks we'll be publishing our first batch of articles covering
 - Tutorials that assume nothing and explain everything
 
 Thanks for being here early. More soon.
+
+*Whether you have a question, an idea, or feedback, we'd love to hear from you. [Get in touch](/contact/).*
