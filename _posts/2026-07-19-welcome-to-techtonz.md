@@ -4,6 +4,7 @@ categories: announcement
 tags: [techtonz, welcome]
 excerpt: "Welcome to Techtonz, a practical tech blog dedicated to artificial intelligence, data science, data analytics, Python, and machine learning. Learn through clear tutorials, hands-on guides, and real-world insights."
 image: /assets/images/tonzlogo.jpg
+featured: true 
 ---
 
 # Welcome to Techtonz
