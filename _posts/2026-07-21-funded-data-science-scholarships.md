@@ -48,10 +48,7 @@ If a scholarship requests payment before processing your application, treat it a
 
 ## 1. Chevening Scholarships (United Kingdom)
 
-Official website:
-https://www.chevening.org/scholarships/
-
-Chevening Scholarships are funded by the UK Government through the Foreign, Commonwealth & Development Office (FCDO). They support outstanding professionals from more than 160 countries to pursue a one-year Master's degree at a UK university.
+Chevening Scholarships are funded by the UK Government through the Foreign, Commonwealth & Development Office (FCDO). They support outstanding professionals from more than 160 countries to pursue a one-year Master's degree at a UK university. For the latest eligibility requirements, application timeline, and participating universities, visit the official [Chevening Scholarships website](https://www.chevening.org/scholarships/).
 
 Many recipients study programmes such as:
 
@@ -78,10 +75,7 @@ Professionals with leadership potential and relevant work experience who want to
 
 ## 2. Erasmus Mundus Joint Master's Scholarships (Europe)
 
-Official website:
-https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students/erasmus-mundus-joint-masters
-
-Erasmus Mundus offers one of the most prestigious international scholarship programmes in Europe. Students study at two or more universities in different European countries and graduate with a joint or multiple Master's degree.
+The Erasmus Mundus Joint Master's programme is one of Europe's most prestigious international scholarship schemes. Students study at two or more universities in different European countries and graduate with a joint or multiple Master's degree. You can explore available programmes and application details on the official [Erasmus Mundus Joint Master's website](https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students/erasmus-mundus-joint-masters).
 
 Many programmes are available in:
 
@@ -107,10 +101,7 @@ Students seeking international academic exposure while studying across multiple 
 
 ## 3. DAAD Scholarships (Germany)
 
-Official website:
-https://www.daad.de/en/studying-in-germany/scholarships/
-
-The German Academic Exchange Service (DAAD) supports thousands of international students every year.
+The German Academic Exchange Service (DAAD) supports thousands of international students every year through scholarships for postgraduate study and research. If you're interested in studying Data Science or Artificial Intelligence in Germany, browse the latest opportunities on the official [DAAD Scholarships website](https://www.daad.de/en/studying-in-germany/scholarships/).
 
 Although DAAD funds many disciplines, there are numerous opportunities for students pursuing postgraduate degrees in:
 
@@ -128,16 +119,13 @@ Although DAAD funds many disciplines, there are numerous opportunities for stude
 - Research support
 - Tuition support (where applicable)
 
-Germany continues to be one of the most attractive destinations for students seeking high-quality education with relatively low tuition costs.
+Germany remains one of the world's most attractive destinations for high-quality education and cutting-edge research.
 
 ---
 
 ## 4. Fulbright Foreign Student Program (United States)
 
-Official website:
-https://foreign.fulbrightonline.org/
-
-The Fulbright Foreign Student Program enables talented students from around the world to pursue Master's and PhD degrees in the United States.
+The Fulbright Foreign Student Program enables talented students from around the world to pursue Master's and PhD degrees in the United States. For eligibility requirements and country-specific application information, visit the official [Fulbright Foreign Student Program website](https://foreign.fulbrightonline.org/).
 
 Although it is not exclusively designed for data science students, many award recipients study:
 
@@ -155,16 +143,13 @@ Although it is not exclusively designed for data science students, many award re
 - Airfare
 - Research support (where applicable)
 
-Fulbright is highly competitive and places significant emphasis on academic excellence and leadership potential.
+Fulbright is highly competitive and places significant emphasis on academic excellence, leadership, and cultural exchange.
 
 ---
 
 ## 5. Commonwealth Scholarships (United Kingdom)
 
-Official website:
-https://cscuk.fcdo.gov.uk/scholarships/
-
-The Commonwealth Scholarship Commission funds postgraduate study for students from eligible Commonwealth countries, including Nigeria.
+The Commonwealth Scholarship Commission offers fully funded postgraduate scholarships to students from eligible Commonwealth countries, including Nigeria. To learn about current application cycles and eligibility criteria, visit the official [Commonwealth Scholarships website](https://cscuk.fcdo.gov.uk/scholarships/).
 
 Many scholars pursue degrees in:
 
@@ -182,7 +167,7 @@ Many scholars pursue degrees in:
 - Thesis grants (where applicable)
 - Additional study-related allowances
 
-The programme aims to equip graduates with the knowledge and skills needed to contribute to the development of their home countries.
+The programme is designed to help talented students develop advanced skills and contribute to the sustainable development of their home countries.
 
 ---
 
