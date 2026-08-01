@@ -3,6 +3,7 @@ title: "Welcome to Techtonz"
 category: announcement
 tags: [techtonz, welcome]
 excerpt: "Why we're building Techtonz, and what to expect from the blog in the coming weeks."
+image: /assets/images/tonzlogo.jpg
 ---
 
 Techtonz is a new home for practical, no-fluff writing on artificial intelligence, data science, Python, and web development.
