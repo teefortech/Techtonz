@@ -5,6 +5,7 @@ tags: [python, beginners, learning, programming]
 excerpt: "Learn Python the smart way in 2026 with this practical roadmap. Discover what to focus on, common mistakes to avoid, and how to build real projects that accelerate your learning."
 author: Tony Nwuzor 
 image: /assets/images/tonzpy.jpg
+featured: true
 ---
 
 Learning Python in 2026 doesn't have to be difficult.
