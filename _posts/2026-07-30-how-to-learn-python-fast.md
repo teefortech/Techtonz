@@ -308,7 +308,7 @@ If you're interested in using Python for data analysis, be sure to read our guid
 
 - [How to Learn Python Fast in 2026](https://techtonz.com/blog/how-to-learn-python-fast/)
 - [Getting Started with Python for Data Work: A Beginner's Guide](https://techtonz.com/blog/Getting-Started-with-Python-for-Data-Work/)
-- [What Data Analysts Actually Do Every Day](/career/what-data-analysts-actually-do-every-day/)
+- [Funded Data Science Scholarships](https://techtonz.com/blog/funded-data-science-scholarships/)
 
 ---
 
