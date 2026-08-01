@@ -1,0 +1,65 @@
+.py-editor {
+  margin: 1.5rem 0;
+  border: 1px solid var(--line, #1e2531);
+  border-radius: 12px;
+  overflow: hidden;
+  background: #0d1117;
+}
+
+.py-editor-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 12px;
+  background: #161b22;
+  border-bottom: 1px solid #30363d;
+}
+
+.py-editor-label {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.75rem;
+  color: #8b93a7;
+}
+
+.py-run {
+  background: #00d9c0;
+  color: #0b0e14;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.py-run:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.py-status {
+  font-size: 0.75rem;
+  color: #8b93a7;
+  margin-left: auto;
+  margin-right: 8px;
+}
+
+.py-editor .CodeMirror {
+  height: auto;
+  min-height: 120px;
+  font-size: 0.9rem;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.py-output {
+  margin: 0;
+  padding: 12px 14px;
+  background: #010409;
+  color: #c9d1d9;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.85rem;
+  min-height: 48px;
+  white-space: pre-wrap;
+  border-top: 1px solid #30363d;
+}
