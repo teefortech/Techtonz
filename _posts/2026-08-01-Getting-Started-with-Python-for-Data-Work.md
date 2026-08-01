@@ -397,3 +397,8 @@ Once you're comfortable with the basics, here are a few topics to explore next:
 - Building Your First Data Analysis Project with Python and Pandas
 
 Happy coding, and welcome to the Techtonz community.
+
+---
+
+*Whether you have a question, an idea, or feedback, we'd love to hear from you. [Get in touch](/contact/).*
+
