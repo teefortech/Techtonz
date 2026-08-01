@@ -9,6 +9,7 @@ tags:
   - study-abroad
 excerpt: "Discover five fully funded scholarships for aspiring data scientists in 2026, including Chevening, Erasmus Mundus, DAAD, Fulbright, and Commonwealth Scholarships."
 image: /assets/images/schlr1.jpg
+featured: true
 ---
 
 Funding remains one of the biggest barriers to pursuing higher education in [Data Science](https://techtonz.com/blog/breaking-into-data-science/) and [Artificial Intelligence](/artificial-intelligence/). Fortunately, governments, universities, and international organizations continue to invest in talented students by offering fully funded scholarships that can significantly reduce or even eliminate the cost of earning a postgraduate degree.
