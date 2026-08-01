@@ -1,4 +1,3 @@
-
 ---
 title: "Getting Started with Python for Data Work: A Beginner's Guide (2026)"
 category: Python
