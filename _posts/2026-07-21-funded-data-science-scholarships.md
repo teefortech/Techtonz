@@ -31,4 +31,6 @@ Before applying anywhere, check for these signals:
 
 *This post will be updated periodically with current, verified opportunities. Always cross-check eligibility and deadlines on the official program website before applying.*
 
+---
+
 *Whether you have a question, an idea, or feedback, we'd love to hear from you. [Get in touch](/contact/).*
