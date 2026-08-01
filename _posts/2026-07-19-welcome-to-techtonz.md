@@ -7,8 +7,6 @@ image: /assets/images/tonzlogo.jpg
 featured: true 
 ---
 
-# Welcome to Techtonz
-
 Welcome to **Techtonz**, your home for practical, no-fluff content on **artificial intelligence, data science, data analytics, Python, and machine learning**.
 
 Whether you're taking your first steps into tech or looking to expand your knowledge, you'll find tutorials, guides, and practical insights designed to help you learn by doing. Our goal is simple: to make complex topics easier to understand and easier to apply.
