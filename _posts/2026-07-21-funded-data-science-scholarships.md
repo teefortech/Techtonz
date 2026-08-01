@@ -3,6 +3,7 @@ title: "5 Fully-Funded Scholarships for Aspiring Data Scientists in 2026"
 category: scholarships
 tags: [scholarships, funding, data-science]
 excerpt: "Funded programs worth applying to this year, with what they cover and who they're realistically for."
+image: /assets/images/schlr1.jpg
 ---
 
 Funding is one of the biggest barriers to formal tech education. These are legitimate, currently-active scholarship routes worth researching further — always verify current details directly on the official program page before applying, since terms and deadlines change.
