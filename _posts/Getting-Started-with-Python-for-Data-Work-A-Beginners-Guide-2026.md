@@ -1,4 +1,11 @@
-# Getting Started with Python for Data Work: A Beginner's Guide (2026)
+
+---
+title: "Getting Started with Python for Data Work: A Beginner's Guide (2026)"
+category: Python
+tags: [Python, Data Analytics, Data Science, Machine Learning, Artificial Intelligence, Pandas, NumPy, Programming for Beginners, Python Tutorial, Tech Careers]
+excerpt: "Learn Python from scratch with this practical beginner's guide for aspiring data analysts, data scientists, and AI professionals. Discover how to install Python, understand core programming concepts, work with data using Pandas, and build a strong foundation for a career in data."
+image: /assets/images/tonzpy1.jpg
+---
 
 Whether you're planning to become a data analyst, data scientist, machine learning engineer, or simply want to make better use of data in your work, learning Python is one of the smartest decisions you can make.
 
@@ -390,5 +397,5 @@ Once you're comfortable with the basics, here are a few topics to explore next:
 - Cleaning Messy Data with Python
 - Building Your First Data Analysis Project with Python and Pandas
 
-Happy coding—and welcome to the Techtonz community.
+Happy coding, and welcome to the Techtonz community.
 ```
