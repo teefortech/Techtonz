@@ -200,9 +200,9 @@ Here are some practical tips:
 - Apply for multiple scholarships instead of relying on just one.
 - Begin preparing your documents several months before application deadlines.
 
-If you're still learning Python, our guide on **[How to Learn Python in 2026](/python/how-to-learn-python-in-2026/)** is a great place to start.
+If you're still learning Python, our guide on **[How to Learn Python Fast in 2026](https://techtonz.com/blog/Getting-Started-with-Python-for-Data-Work/)** is a great place to start.
 
-If you're completely new to programming, read **[Getting Started with Python for Data Work: A Beginner's Guide](/python/getting-started-with-python-for-data-work/)**.
+If you're completely new to programming, read **[Getting Started with Python for Data Work: A Beginner's Guide](https://techtonz.com/blog/getting-started-with-python-for-data-work-(2026)/)**.
 
 You can also strengthen your portfolio by understanding **[What Data Analysts Actually Do Every Day](/career/what-data-analysts-actually-do-every-day/)** and building projects around real-world business problems.
 
