@@ -8,7 +8,6 @@ eyebrow: EXPERIMENT
 <section class="pg-hero">
   <div class="pg-hero-inner">
     <span class="pg-eyebrow">EXPERIMENT</span>
-    <h1>Python Playground</h1>
     <p class="pg-lead">
       Learn by doing. Write and run Python code instantly in your browser — no install, no setup.
     </p>
