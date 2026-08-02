@@ -154,7 +154,7 @@ Before you move on, try changing the examples above:
 
 Once variables feel comfortable, the next step is **working with strings and numbers** — combining text, doing math, and formatting output cleanly.
 
-For a broader learning path, see [How to Learn Python Fast in 2026](/how-to-learn-python-fast/).
+For a broader learning path, see [How to Learn Python Fast in 2026](https://techtonz.com/blog/how-to-learn-python-fast/).
 
 ---
 
