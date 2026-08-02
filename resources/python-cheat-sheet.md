@@ -92,8 +92,9 @@ print(user["track"])
 <div class="resource-cta-box" markdown="0">
   <h2>Get the full one-page PDF</h2>
   <p>Print it or keep it next to your editor while you practice.</p>
-  <a class="btn-primary" href="{{ '/assets/downloads/python-cheat-sheet.pdf' | relative_url }}" download>
-    Download Python Cheat Sheet →
+  <a class="btn-primary btn-download" href="{{ '/assets/downloads/....pdf' | relative_url }}" download>
+  Download
+</a>
   </a>
 </div>
 
