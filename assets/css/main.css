@@ -2593,3 +2593,20 @@ footer .mono { color: #5a6478; }
     grid-template-columns: 1fr;
   }
   }
+.btn-download {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-width: 140px;
+  text-align: center;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.btn-download::before {
+  content: "↓";
+  font-size: 1.1em;
+  font-weight: 700;
+  line-height: 1;
+}
