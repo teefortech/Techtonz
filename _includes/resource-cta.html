@@ -1,0 +1,21 @@
+{% comment %}
+  Optional post CTA. In a post's front matter set:
+  resource_cta: python-cheat-sheet
+  (must match an id in _data/resources.yml)
+{% endcomment %}
+{% if page.resource_cta %}
+  {% assign res = nil %}
+  {% for item in site.data.resources %}
+    {% if item.id == page.resource_cta %}
+      {% assign res = item %}
+    {% endif %}
+  {% endfor %}
+  {% if res %}
+  <aside class="post-resource-cta">
+    <span class="post-resource-label mono">FREE RESOURCE</span>
+    <h3>{{ res.title }}</h3>
+    <p>{{ res.tagline }}</p>
+    <a class="btn-primary" href="{{ res.permalink | relative_url }}">Get the free resource →</a>
+  </aside>
+  {% endif %}
+{% endif %}
