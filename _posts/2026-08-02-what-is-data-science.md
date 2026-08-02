@@ -3,7 +3,7 @@ title: "What Is Data Science? A Practical Guide for 2026"
 category: data-science
 tags: [data-science, beginners, python, career]
 excerpt: "A clear, practical guide to data science in 2026: what it is, how it differs from analytics and ML, the real workflow, core skills, tools, and a hands-on example you can run in your browser."
-image: /assets/images/tonzds2.jpg
+image: /assets/images/tonzds1.jpg
 featured: true
 ---
 
