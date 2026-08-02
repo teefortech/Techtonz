@@ -143,7 +143,7 @@ print(f"Welcome to Techtonz, {name}!")</code></pre>
     <span class="path mono">~/techtonz/blog</span>
   </div>
   <div class="pg-learn-grid">
-    <a class="pg-learn-card" href="{{ 'https://techtonz.com/blog/getting-started-with-python-for-data-work/' | relative_url }}">
+    <a class="pg-learn-card" href="{{ 'https://techtonz.com/blog/Getting-Started-with-Python-for-Data-Work/' | relative_url }}">
       <span class="badge">python</span>
       <h3>Getting Started with Python for Data Work</h3>
       <p>A practical entry point for using Python with data.</p>
