@@ -1,0 +1,48 @@
+# Free resources / lead magnets for Techtonz
+# Add a new item, then create matching page under resources/
+
+- id: python-cheat-sheet
+  title: "Python Cheat Sheet for Beginners"
+  tagline: "Variables, loops, functions, lists, dictionaries — one page you can keep open while you code."
+  category: Python
+  type: Cheat sheet
+  permalink: /resources/python-cheat-sheet/
+  download: /assets/downloads/python-cheat-sheet.pdf
+  status: available
+  related:
+    - title: "Variables in Python"
+      url: /blog/variables-in-python/
+    - title: "How to Learn Python Fast in 2026"
+      url: /blog/how-to-learn-python-fast/
+    - title: "Getting Started with Python for Data Work"
+      url: /blog/Getting-Started-with-Python-for-Data-Work/
+
+- id: data-science-roadmap-2026
+  title: "Data Science Roadmap 2026"
+  tagline: "A practical path from fundamentals to portfolio — what to learn, in what order, and what to skip."
+  category: Data Science
+  type: Roadmap
+  permalink: /resources/data-science-roadmap-2026/
+  download: /assets/downloads/data-science-roadmap-2026.pdf
+  status: coming-soon
+  related:
+    - title: "What Is Data Science?"
+      url: /blog/what-is-data-science/
+    - title: "How to Break Into Data Science With No Experience"
+      url: /blog/how-to-break-into-data-science/
+    - title: "SQL for Data Science"
+      url: /blog/sql-for-data-science/
+
+- id: sql-cheat-sheet
+  title: "SQL Cheat Sheet for Data Work"
+  tagline: "SELECT, JOIN, GROUP BY, and the patterns you use in real analysis."
+  category: SQL
+  type: Cheat sheet
+  permalink: /resources/sql-cheat-sheet/
+  download: /assets/downloads/sql-cheat-sheet.pdf
+  status: coming-soon
+  related:
+    - title: "SQL for Data Science"
+      url: /blog/sql-for-data-science/
+    - title: "Your First pandas Analysis"
+      url: /blog/first-pandas-analysis/
