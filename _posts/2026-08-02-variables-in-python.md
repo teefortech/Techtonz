@@ -3,7 +3,7 @@ title: "Variables in Python"
 category: python
 tags: [python, beginners, variables]
 excerpt: "Learn what variables are in Python, how to name them, and how to use them with short interactive examples you can run in your browser."
-image: /assets/images/tonzpy.jpg
+image: /assets/images/tonzpy2.jpg
 featured: true
 ---
 
