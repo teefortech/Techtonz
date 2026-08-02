@@ -1,0 +1,17 @@
+# Replace the sql-cheat-sheet block in _data/resources.yml with:
+
+- id: sql-cheat-sheet
+  title: "SQL Cheat Sheet for Data Work"
+  tagline: "SELECT, JOIN, GROUP BY, and the patterns you use in real analysis."
+  category: SQL
+  type: Cheat sheet
+  permalink: /resources/sql-cheat-sheet/
+  download: /assets/downloads/sql-cheat-sheet.pdf
+  status: available
+  related:
+    - title: "SQL for Data Science"
+      url: /blog/sql-for-data-science/
+    - title: "Your First pandas Analysis"
+      url: /blog/first-pandas-analysis/
+    - title: "What Is Data Science?"
+      url: /blog/what-is-data-science/
