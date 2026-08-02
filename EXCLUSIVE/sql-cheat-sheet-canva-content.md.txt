@@ -1,0 +1,129 @@
+# Techtonz — SQL Cheat Sheet for Data Work
+## Layout guide for Canva (one page)
+
+**Design tips**
+- Same visual system as Python sheet (teal accent, clear sections)
+- Show keyword in teal or bold; examples in monospace
+- Footer: techtonz.com/resources
+
+---
+
+### TITLE
+**SQL Cheat Sheet for Data Work**  
+Queries you’ll use in analysis · Techtonz
+
+---
+
+### 1. SELECT / FROM / LIMIT
+```sql
+SELECT user_id, country, plan
+FROM users
+LIMIT 10;
+```
+
+---
+
+### 2. WHERE
+```sql
+SELECT *
+FROM users
+WHERE country = 'NG'
+  AND plan = 'pro';
+```
+
+---
+
+### 3. ORDER BY
+```sql
+SELECT user_id, signup_date
+FROM users
+ORDER BY signup_date DESC;
+```
+
+---
+
+### 4. AGGREGATIONS
+```sql
+SELECT
+  COUNT(*) AS total,
+  COUNT(DISTINCT country) AS countries,
+  AVG(amount) AS avg_amount,
+  SUM(amount) AS revenue
+FROM orders;
+```
+
+---
+
+### 5. GROUP BY
+```sql
+SELECT country, COUNT(*) AS users
+FROM users
+GROUP BY country
+ORDER BY users DESC;
+```
+
+---
+
+### 6. HAVING (filter groups)
+```sql
+SELECT user_id, COUNT(*) AS orders
+FROM orders
+GROUP BY user_id
+HAVING COUNT(*) >= 2;
+```
+
+---
+
+### 7. INNER JOIN
+```sql
+SELECT u.user_id, u.country, o.amount
+FROM users u
+INNER JOIN orders o
+  ON u.user_id = o.user_id;
+```
+
+---
+
+### 8. LEFT JOIN
+```sql
+SELECT u.user_id, o.order_id
+FROM users u
+LEFT JOIN orders o
+  ON u.user_id = o.user_id;
+-- keeps users with no orders
+```
+
+---
+
+### 9. CASE
+```sql
+SELECT
+  user_id,
+  CASE
+    WHEN amount >= 100 THEN 'high'
+    WHEN amount >= 50 THEN 'mid'
+    ELSE 'low'
+  END AS spend_band
+FROM orders;
+```
+
+---
+
+### 10. USEFUL PATTERNS
+```sql
+-- Top N
+SELECT * FROM orders ORDER BY amount DESC LIMIT 5;
+
+-- Non-null filter
+WHERE email IS NOT NULL;
+
+-- Alias
+SELECT COUNT(*) AS total_users FROM users;
+```
+
+---
+
+### FOOTER
+Learn more: techtonz.com/blog/sql-for-data-science  
+Resources: techtonz.com/resources  
+© Techtonz

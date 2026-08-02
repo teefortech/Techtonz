@@ -1,0 +1,106 @@
+---
+layout: page
+title: SQL Cheat Sheet for Data Work
+permalink: /resources/sql-cheat-sheet/
+eyebrow: FREE RESOURCE
+---
+
+<div class="resource-hero" markdown="0">
+  <span class="resource-badge">Free · PDF</span>
+  <h1 class="resource-title">SQL Cheat Sheet for Data Work</h1>
+  <p class="resource-lead">
+    A one-page reference for SELECT, WHERE, JOIN, GROUP BY, and the query patterns
+    you use constantly in data analysis and data science.
+  </p>
+  <div class="resource-actions">
+    <a class="btn-primary" href="{{ '/assets/downloads/sql-cheat-sheet.pdf' | relative_url }}" download>
+      Download PDF →
+    </a>
+    <a class="btn-ghost" href="{{ '/blog/sql-for-data-science/' | relative_url }}">Read the SQL guide</a>
+  </div>
+</div>
+
+## What’s inside
+
+- `SELECT`, `FROM`, `WHERE`, `ORDER BY`, `LIMIT`  
+- Aggregations: `COUNT`, `SUM`, `AVG`  
+- `GROUP BY` and `HAVING`  
+- `INNER JOIN` and `LEFT JOIN`  
+- `CASE` expressions  
+- Patterns for top-N and null checks  
+
+## Who it’s for
+
+Learners and junior analysts who write queries for exploration, reporting, or feeding Python/pandas workflows.
+
+## Related on Techtonz
+
+<div class="resource-related" markdown="0">
+  <a class="resource-related-card" href="{{ '/blog/sql-for-data-science/' | relative_url }}">
+    <span class="badge">sql</span>
+    <strong>SQL for Data Science</strong>
+    <span>What to learn and how it fits the workflow</span>
+  </a>
+  <a class="resource-related-card" href="{{ '/blog/first-pandas-analysis/' | relative_url }}">
+    <span class="badge">python</span>
+    <strong>Your First pandas Analysis</strong>
+    <span>What to do after you extract the data</span>
+  </a>
+  <a class="resource-related-card" href="{{ '/blog/what-is-data-science/' | relative_url }}">
+    <span class="badge">data-science</span>
+    <strong>What Is Data Science?</strong>
+    <span>Where SQL sits in the bigger picture</span>
+  </a>
+</div>
+
+## Quick preview (web version)
+
+### Filter and sort
+
+```sql
+SELECT user_id, country, plan
+FROM users
+WHERE country = 'NG'
+ORDER BY user_id
+LIMIT 20;
+```
+
+### Aggregate by group
+
+```sql
+SELECT country, COUNT(*) AS users
+FROM users
+GROUP BY country
+ORDER BY users DESC;
+```
+
+### Join users and orders
+
+```sql
+SELECT u.user_id, u.country, o.amount
+FROM users AS u
+INNER JOIN orders AS o
+  ON u.user_id = o.user_id;
+```
+
+### Repeat customers
+
+```sql
+SELECT user_id, COUNT(*) AS orders
+FROM orders
+GROUP BY user_id
+HAVING COUNT(*) >= 2;
+```
+
+<div class="resource-cta-box" markdown="0">
+  <h2>Get the full one-page PDF</h2>
+  <p>Keep it next to your editor while you practice queries.</p>
+  <a class="btn-primary" href="{{ '/assets/downloads/sql-cheat-sheet.pdf' | relative_url }}" download>
+    Download SQL Cheat Sheet →
+  </a>
+</div>
+
+<p class="resource-foot">
+  More free tools on the <a href="{{ '/resources/' | relative_url }}">Resources</a> page ·
+  Full tutorial: <a href="{{ '/blog/sql-for-data-science/' | relative_url }}">SQL for Data Science</a>
+</p>
