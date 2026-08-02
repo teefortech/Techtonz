@@ -313,4 +313,4 @@ If you're interested in using Python for data analysis, be sure to read our guid
 
 ---
 
-*Got a topic you want covered next? [Get in touch](/contact/).*
+*Whether you have a question, an idea, or feedback, we'd love to hear from you. [Get in touch](/contact/).*
