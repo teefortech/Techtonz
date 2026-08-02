@@ -3,7 +3,7 @@ title: "What Is Data Science? A Practical Guide for 2026"
 category: data-science
 tags: [data-science, beginners, python, career]
 excerpt: "A clear, practical guide to data science in 2026: what it is, how it differs from analytics and ML, the real workflow, core skills, tools, and a hands-on example you can run in your browser."
-image: /assets/images/datasc1.jpg
+image: /assets/images/tonzds2.jpg
 featured: true
 ---
 
@@ -260,7 +260,7 @@ A practical sequence for 2026:
 
 Avoid trying to learn “everything in AI” in the first month. Depth in fundamentals beats shallow exposure to twenty tools.
 
-For career-focused guidance (projects, applications, what employers actually look for), see [How to Break Into Data Science With No Experience](/blog/how-to-break-into-data-science/).
+For career-focused guidance (projects, applications, what employers actually look for), see [How to Break Into Data Science With No Experience](https://techtonz.com/blog/breaking-into-data-science/)
 
 ---
 
@@ -299,13 +299,13 @@ Data science is not a single course or a single library. It is a way of working 
 
 ---
 
-## Related reading on Techtonz
+## Related Articles
 
-- [How to Break Into Data Science With No Experience](/blog/how-to-break-into-data-science/)  
-- [How to Learn Python Fast in 2026](/blog/how-to-learn-python-fast/)  
-- [Getting Started with Python for Data Work](/blog/Getting-Started-with-Python-for-Data-Work/)  
-- [Variables in Python](/blog/variables-in-python/)  
-- [Funded Data Science Scholarships](/blog/funded-data-science-scholarships/)
+- [How to Learn Python Fast in 2026](https://techtonz.com/blog/how-to-learn-python-fast/)
+- [Getting Started with Python for Data Work: A Beginner's Guide](https://techtonz.com/blog/Getting-Started-with-Python-for-Data-Work/)
+- [Funded Data Science Scholarships](https://techtonz.com/blog/funded-data-science-scholarships/)
+- [How to Break into Data Science with No Experience](https://techtonz.com/blog/breaking-into-data-science/)
+- [Variables in Python](https://techtonz.com/blog/variables-in-python/)
 
 ---
 
