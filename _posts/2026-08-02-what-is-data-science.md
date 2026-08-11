@@ -7,11 +7,11 @@ image: /assets/images/tonzds1.jpg
 featured: true
 ---
 
-Data science is one of the most talked-about fields in technology — and one of the most misunderstood.
+Data science is one of the most talked-about fields in technology, and one of the most misunderstood.
 
 Some people treat it as pure statistics. Others think it is only machine learning. Many job posts mix “data scientist,” “data analyst,” and “ML engineer” as if they were the same role.
 
-In practice, **data science is the discipline of turning raw data into decisions**. It sits at the intersection of programming, statistics, and domain knowledge. The goal is not to collect more data or train the flashiest model. The goal is to answer questions that matter — and to do it in a way others can trust and act on.
+In practice, **data science is the discipline of turning raw data into decisions**. It sits at the intersection of programming, statistics, and domain knowledge. The goal is not to collect more data or train the flashiest model. The goal is to answer questions that matter, and to do it in a way others can trust and act on.
 
 This guide explains what data science really is in 2026, how the work is done, which skills matter first, and how to start practicing with a small, concrete example.
 
@@ -46,7 +46,7 @@ A simple way to remember it:
 
 - **Analytics** looks mostly at the past and present.  
 - **Machine learning** builds systems that learn patterns from data.  
-- **Data science** is the broader practice that can include both — plus cleaning, experimentation, communication, and domain context.
+- **Data science** is the broader practice that can include both, plus cleaning, experimentation, communication, and domain context.
 
 In many companies, one person wears more than one of these hats. In larger teams, the roles split. What stays constant is the need to move from **messy data** to **clear decisions**.
 
@@ -66,7 +66,7 @@ Industry surveys and day-to-day practice tell a different story. A large share o
 6. **Communicating results** — Charts, written summaries, recommendations for non-technical stakeholders.  
 7. **Putting work into use** — Dashboards, reports, or production systems (sometimes with engineers).
 
-If you only study algorithms and skip cleaning, questioning, and communication, you will struggle in real roles. Employers hire people who can own a problem from question to insight — not people who only run a library function.
+If you only study algorithms and skip cleaning, questioning, and communication, you will struggle in real roles. Employers hire people who can own a problem from question to insight, not people who only run a library function.
 
 ---
 
@@ -99,7 +99,7 @@ Compute summaries, plot distributions, segment users, and check relationships. E
 
 ### 5. Model only when it helps
 
-Not every problem needs machine learning. Sometimes a clear table or a well-chosen average is enough. When you do model, evaluate honestly — accuracy alone is rarely the full story.
+Not every problem needs machine learning. Sometimes a clear table or a well-chosen average is enough. When you do model, evaluate honestly, accuracy alone is rarely the full story.
 
 ### 6. Communicate
 
@@ -142,7 +142,7 @@ You need enough statistics to:
 - Avoid obvious biases and misleading charts  
 - Choose sensible evaluation metrics  
 
-You do not need to become a pure mathematician first — but you do need to reason carefully about numbers.
+You do not need to become a pure mathematician first, but you do need to reason carefully about numbers.
 
 ### 4. Communication
 
@@ -278,7 +278,7 @@ For career-focused guidance (projects, applications, what employers actually loo
 
 The field keeps evolving. In 2026 you will hear more about:
 
-- **AI-assisted analysis** (using LLMs to speed up coding and exploration — still requiring human judgment)  
+- **AI-assisted analysis** (using LLMs to speed up coding and exploration, still requiring human judgment)  
 - **Stronger emphasis on reliable data and evaluation**  
 - **Closer collaboration with data engineering and product teams**  
 - **Specialized paths** (analytics-heavy roles vs ML-heavy roles)
