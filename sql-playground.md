@@ -10,7 +10,7 @@ eyebrow: PRACTICE
   <div class="sql-hero">
     <h1 class="sql-hero-title">SQL Playground</h1>
     <p class="sql-hero-lead">
-      Write and run real SQL in your browser — no install, no server.
+      Write and run real SQL in your browser. No install, no server.
       Practice SELECT, JOIN, GROUP BY, and more on a sample database.
     </p>
   </div>
@@ -78,7 +78,7 @@ ORDER BY salary DESC;</textarea>
   <section class="sql-tips">
     <h2>Tips</h2>
     <ul>
-      <li>Everything runs in your browser with SQLite — nothing is sent to a server.</li>
+      <li>Everything runs in your browser with SQLite, nothing is sent to a server.</li>
       <li>Use <strong>Reset database</strong> if you change data with INSERT/UPDATE/DELETE.</li>
       <li>On mobile, rotate to landscape for a wider editor, or scroll the result table sideways.</li>
       <li>Pair this with our guide: <a href="{{ '/blog/sql-for-data-science/' | relative_url }}">SQL for Data Science</a>.</li>
