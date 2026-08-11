@@ -14,7 +14,7 @@ Most of them try to teach everything at once: Python, SQL, deep learning, cloud,
 
 That approach is why many beginners feel busy but not skilled.
 
-This roadmap is different. It is ordered for **how people actually get productive** in 2026: foundations first, clear checkpoints, and projects that prove you can do the work—not just that you watched a course.
+This roadmap is different. It is ordered for **how people actually get productive** in 2026: foundations first, clear checkpoints, and projects that prove you can do the work, not just that you watched a course.
 
 ---
 
@@ -44,7 +44,7 @@ Consistency beats intensity. A few solid hours every week outperform random week
 
 ---
 
-## Phase 1 — Python foundations
+## Phase 1: Python foundations
 
 **Time:** 3–6 weeks  
 
@@ -59,7 +59,7 @@ Learn:
 - Reading simple files  
 - Basic errors and how to read them  
 
-**Done when:** You can write a short script that reads data, loops over it, and prints a summary—without panicking at every error message.
+**Done when:** You can write a short script that reads data, loops over it, and prints a summary, without panicking at every error message.
 
 **Practice on Techtonz:**
 
@@ -71,11 +71,11 @@ Learn:
 
 ---
 
-## Phase 2 — Tables and analysis (pandas)
+## Phase 2: Tables and analysis (pandas)
 
 **Time:** 3–5 weeks  
 
-**Focus:** Treat data as tables—filter, group, summarize, and describe what you see.
+**Focus:** Treat data as tables. Filter, group, summarize, and describe what you see.
 
 Learn:
 
@@ -96,7 +96,7 @@ Learn:
 
 ---
 
-## Phase 3 — SQL
+## Phase 3: SQL
 
 **Time:** 2–4 weeks  
 
@@ -125,7 +125,7 @@ Learn:
 
 **Time:** 2–3 weeks  
 
-**Focus:** Enough statistics to avoid fooling yourself—and others.
+**Focus:** Enough statistics to avoid fooling yourself, and others.
 
 Learn:
 
@@ -141,11 +141,11 @@ You do not need a math degree first. You need careful habits around numbers.
 
 ---
 
-## Phase 5 — Machine learning basics
+## Phase 5: Machine learning basics
 
 **Time:** 4–6 weeks  
 
-**Focus:** One solid end-to-end prediction workflow—not ten algorithms memorized.
+**Focus:** One solid end-to-end prediction workflow, not ten algorithms memorized.
 
 Learn:
 
@@ -161,7 +161,7 @@ Learn:
 
 ---
 
-## Phase 6 — Portfolio and communication
+## Phase 6: Portfolio and communication
 
 **Time:** Ongoing  
 
@@ -232,7 +232,7 @@ If you want a one-page version to keep beside your learning plan:
 
 **[Download the Data Science Roadmap 2026](/resources/data-science-roadmap-2026/)**
 
-It summarizes phases, checkpoints, and what to skip—designed for quick reference while you study.
+It summarizes phases, checkpoints, and what to skip, designed for quick reference while you study.
 
 ---
 
