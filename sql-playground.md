@@ -8,7 +8,6 @@ eyebrow: PRACTICE
 <div class="sql-page" markdown="0">
 
   <div class="sql-hero">
-    <h1 class="sql-hero-title">SQL Playground</h1>
     <p class="sql-hero-lead">
       Write and run real SQL in your browser. No install, no server.
       Practice SELECT, JOIN, GROUP BY, and more on a sample database.
