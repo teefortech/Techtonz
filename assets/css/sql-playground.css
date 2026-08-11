@@ -1,0 +1,303 @@
+/* ========== SQL PLAYGROUND ========== */
+.sql-page {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.sql-hero {
+  margin: 0 0 28px;
+}
+
+.sql-hero-title {
+  font-size: clamp(1.75rem, 4vw, 2.25rem) !important;
+  margin: 0 0 10px !important;
+}
+
+.sql-hero-lead {
+  color: var(--slate);
+  font-size: 1.05rem;
+  line-height: 1.55;
+  max-width: 560px;
+  margin: 0;
+}
+
+.sql-layout {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+@media (max-width: 800px) {
+  .sql-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.sql-sidebar {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--bg-raised);
+  padding: 18px 16px;
+}
+
+.sql-side-title {
+  font-size: 0.78rem !important;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--slate);
+  margin: 0 0 10px !important;
+  font-weight: 600;
+}
+
+.sql-sidebar .sql-side-title + .sql-side-title,
+.sql-examples {
+  margin-top: 4px;
+}
+
+.sql-tables {
+  list-style: none;
+  margin: 0 0 20px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sql-table-btn,
+.sql-ex-btn {
+  width: 100%;
+  text-align: left;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  color: var(--ink);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.82rem;
+  padding: 8px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.sql-table-btn:hover,
+.sql-ex-btn:hover {
+  border-color: var(--teal);
+  background: rgba(0, 168, 145, 0.08);
+}
+
+.sql-examples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 18px;
+}
+
+.sql-ex-btn {
+  width: auto;
+  padding: 6px 10px;
+  font-size: 0.75rem;
+}
+
+.sql-side-actions {
+  margin-top: 8px;
+}
+
+.sql-reset {
+  width: 100%;
+  font-size: 0.85rem;
+  padding: 10px 12px;
+  cursor: pointer;
+  background: transparent;
+}
+
+.sql-main {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
+.sql-editor-wrap,
+.sql-results-wrap,
+.sql-schema {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--bg-raised);
+  overflow: hidden;
+}
+
+.sql-toolbar,
+.sql-results-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--line);
+  background: var(--bg);
+}
+
+.sql-label {
+  font-size: 0.75rem;
+  color: var(--slate);
+  letter-spacing: 0.06em;
+}
+
+.sql-toolbar-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.sql-run,
+.sql-copy {
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 8px 14px;
+  border-radius: 8px;
+}
+
+.sql-copy {
+  background: transparent;
+}
+
+.sql-source {
+  width: 100%;
+  min-height: 180px;
+  border: none;
+  resize: vertical;
+  padding: 16px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  background: var(--bg-raised);
+  color: var(--ink);
+  outline: none;
+}
+
+.sql-status {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--slate);
+}
+
+.sql-status.is-ok { color: var(--teal); }
+.sql-status.is-err { color: #e85d5d; }
+
+.sql-results {
+  padding: 14px;
+  overflow-x: auto;
+  min-height: 120px;
+}
+
+.sql-placeholder {
+  color: var(--slate);
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.sql-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.sql-table th,
+.sql-table td {
+  border: 1px solid var(--line);
+  padding: 8px 10px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.sql-table th {
+  background: var(--bg);
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.sql-table tr:nth-child(even) td {
+  background: rgba(0, 0, 0, 0.02);
+}
+
+:root[data-theme="dark"] .sql-table tr:nth-child(even) td {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.sql-error {
+  color: #e85d5d;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.88rem;
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+.sql-schema {
+  padding: 16px;
+}
+
+.sql-schema-pre {
+  margin: 0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--slate);
+  white-space: pre-wrap;
+  line-height: 1.45;
+  max-height: 220px;
+  overflow: auto;
+}
+
+.sql-tips {
+  margin-top: 36px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+
+.sql-tips h2 {
+  font-size: 1.15rem;
+  margin: 0 0 12px;
+}
+
+.sql-tips ul {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--slate);
+}
+
+.sql-tips li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.sql-tips a {
+  color: var(--teal);
+}
+
+/* Compact embed for blog posts */
+.sql-embed {
+  margin: 28px 0;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--bg-raised);
+  overflow: hidden;
+}
+
+.sql-embed .sql-toolbar {
+  background: var(--bg);
+}
+
+.sql-embed .sql-source {
+  min-height: 120px;
+}
+
+.sql-embed-note {
+  padding: 10px 14px;
+  font-size: 0.8rem;
+  color: var(--slate);
+  border-top: 1px solid var(--line);
+}
+
+.sql-embed-note a {
+  color: var(--teal);
+}
