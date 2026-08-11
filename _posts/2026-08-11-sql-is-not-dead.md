@@ -2,8 +2,8 @@
 title: "SQL Is Not Dead: Why Data Scientists Still Need SQL in the Age of AI"
 category: data-science
 tags: [sql, data-science, ai, career, beginners]
-excerpt: "AI can write SQL in seconds—but syntactically correct queries can still be logically wrong. Here’s why data scientists still need SQL in 2026, and what to learn."
-image: /assets/images/datasc1.jpg
+excerpt: "AI can write SQL in seconds. But syntactically correct queries can still be logically wrong. Here’s why data scientists still need SQL in 2026, and what to learn."
+image: /assets/images/tonzsq_1.jpg
 featured: true
 resource_cta: sql-cheat-sheet
 ---
@@ -136,7 +136,7 @@ That is the **grain** of the data. Wrong grain plus careless joins produces misl
 
 ### 2. Relationships between tables
 
-Real data is rarely one perfect table. You may have customers, orders, products, payments, and locations. Understanding **JOIN**s—especially when they multiply or drop rows—is one of the highest-value skills for data scientists.
+Real data is rarely one perfect table. You may have customers, orders, products, payments, and locations. Understanding **JOIN**s, especially when they multiply or drop rows, is one of the highest-value skills for data scientists.
 
 ### 3. Aggregation
 
@@ -228,7 +228,7 @@ Many developers use AI tools while remaining cautious about accuracy. The same c
 When an AI generates a query, ask:
 
 - Does it use the correct tables?  
-- Are the joins correct—and could they duplicate rows?  
+- Are the joins correct, and could they duplicate rows?  
 - Are filters and date ranges correct?  
 - Is the aggregation mathematically appropriate?  
 - Does the result match a small manual check?  
@@ -285,7 +285,7 @@ SELECT *
 FROM monthly_sales;
 ```
 
-*(Date functions vary by database—Postgres, BigQuery, and MySQL differ slightly.)*
+*(Date functions vary by database: Postgres, BigQuery, and MySQL differ slightly.)*
 
 ---
 
@@ -297,13 +297,13 @@ A stronger practitioner asks: *What question am I answering, and what should one
 
 Before writing a query, define:
 
-1. **Business question** — what are we trying to discover?  
-2. **Data required** — tables and columns  
-3. **Grain** — what one row means  
-4. **Filters** — which records count  
-5. **Relationships** — how tables join  
-6. **Calculation** — what is measured  
-7. **Validation** — how we know the answer is right  
+1. **Business question**: what are we trying to discover?  
+2. **Data required**: tables and columns  
+3. **Grain**: what one row means  
+4. **Filters**: which records count  
+5. **Relationships**: how tables join  
+6. **Calculation**: what is measured  
+7. **Validation**: how we know the answer is right  
 
 That habit improves SQL, analysis, and work with AI.
 
@@ -373,4 +373,4 @@ Ready to practice? Open the [SQL Playground](/sql-playground/) and run your firs
 
 ---
 
-*Have a SQL topic you want covered next—window functions, joins, or warehouse tips? [Get in touch](/contact/).*
+*Have a SQL topic you want covered next; window functions, joins, or warehouse tips? [Get in touch](/contact/).*
