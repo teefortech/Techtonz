@@ -7,7 +7,7 @@ image: /assets/images/tonzpy2.jpg
 featured: true
 ---
 
-Variables are one of the first ideas you meet in Python. They let you store values and reuse them later — numbers, text, lists, and more.
+Variables are one of the first ideas you meet in Python. They let you store values and reuse them later, including numbers, text, lists, and more.
 
 Think of a variable as a **labeled box**. You put something in the box, give it a name, and use that name whenever you need the value.
 
@@ -152,7 +152,7 @@ Before you move on, try changing the examples above:
 
 ## What’s next
 
-Once variables feel comfortable, the next step is **working with strings and numbers** — combining text, doing math, and formatting output cleanly.
+Once variables feel comfortable, the next step is **working with strings and numbers**. This involves combining text, doing math, and formatting output cleanly.
 
 For a broader learning path, see: 
 - [How to Learn Python Fast in 2026](https://techtonz.com/blog/how-to-learn-python-fast/)
