@@ -3,7 +3,7 @@ title: "Data Science Roadmap 2026: What to Learn and in What Order"
 category: data-science
 tags: [data-science, roadmap, career, beginners, python]
 excerpt: "A practical 2026 roadmap for learning data science: Python, SQL, pandas, statistics, machine learning, and portfolio projects, without drowning in tools."
-image: /assets/images/datasc1.jpg
+image: /assets/images/tonzds_3.jpg
 featured: true
 resource_cta: data-science-roadmap-2026
 ---
