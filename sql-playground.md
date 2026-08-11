@@ -80,7 +80,7 @@ ORDER BY salary DESC;</textarea>
       <li>Everything runs in your browser with SQLite, nothing is sent to a server.</li>
       <li>Use <strong>Reset database</strong> if you change data with INSERT/UPDATE/DELETE.</li>
       <li>On mobile, rotate to landscape for a wider editor, or scroll the result table sideways.</li>
-      <li>Pair this with our guide: <a href="{{ '/blog/sql-for-data-science/' | relative_url }}">SQL for Data Science</a>.</li>
+      <li>Pair this with our guide: <a href="{{ 'https://techtonz.com/blog/sql-is-not-dead/' | relative_url }}">SQL for Data Science</a>.</li>
     </ul>
   </section>
 
